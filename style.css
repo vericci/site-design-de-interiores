@@ -1,5 +1,5 @@
 *{
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 0;
     text-decoration: none;
 }
@@ -10,9 +10,10 @@ html {
 }
 
 body {
-    background-image: url(imagens/ai-generated-8942346.jpg);*/
+   /* background-image: url(imagens/ai-generated-8942346.jpg);*/
     background-size: cover;
     background-position: center;
+    background-color: rgb(1, 1, 43);
 
     
 }
@@ -54,23 +55,19 @@ header i {
 }
 
 .section-1 {
-    padding:min(6vh, 5rem);
-    display: flex;
+    padding:min(15vh, 30rem);
     align-items: center;
     width: 100%;
+    background-image: url(imagens/kitchen-1543493_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    
     
 
 }
 
-.section-1 p {
-    font-size: 2rem;
-    font-weight: 300;
-    color: white;
-    text-align: justify;
-}
-    
 .section-2 {
-    padding:min(6vh, 5rem);
+    padding:min(15vh, 30rem);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -79,6 +76,7 @@ header i {
 }  
 
 .section-2 img {
-    width: rem;
+    width: 40rem;
+    height: auto;
     
 }
