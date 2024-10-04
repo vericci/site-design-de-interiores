@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0rem;
     padding: 0;
     text-decoration: none;
@@ -14,11 +14,13 @@ html {
 
 /*Define a classe "whatsapp"*/
 .whatsapp {
-    position: relative; /*Permite*/
+    position: relative;
+    /*Permite*/
 }
 
 .whatsapp img {
-    position: fixed;/*Mantem a imagem em uma posição fixa na tela.*/
+    position: fixed;
+    /*Mantem a imagem em uma posição fixa na tela.*/
     bottom: 20px;
     right: 20px;
     width: 5rem;
@@ -35,27 +37,28 @@ html {
 }*/
 
 header {
-    padding:min(5vh, 4rem);
+    padding: min(5vh, 4rem);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: white;
+
 
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
     box-shadow: 0 0.21rem 0.5rem black;
-   
+
 
 }
-   
+
 
 
 header nav ul {
     display: flex;
-    
+
 }
 
 header nav ul li {
@@ -67,6 +70,10 @@ header nav ul li a {
     margin: 0.8rem;
 }
 
+header nav ul li a:hover {
+    color: red;
+}
+
 
 .section-1 {
     padding: min(20vh, 6rem);
@@ -75,14 +82,16 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     align-items: center;
-        
-   
+
 }
+
+
 
 .section-1 img {
     width: 100%;
     box-shadow: 0 0.50rem 0.5rem black;
     
+
 }
 
 .section-1 h2 {
@@ -90,7 +99,8 @@ header nav ul li a {
     font-weight: 300;
     color: black;
     text-align: left;
-    
+    margin-bottom: 10re;
+
 }
 
 
@@ -101,12 +111,11 @@ header nav ul li a {
     border-radius: 1rem;
     padding: 1.3rem;
     color: black;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0.21rem 0.5rem black;
-    margin-top: 0.5rem;
 }
 
 
@@ -119,6 +128,7 @@ header nav ul li a {
     background-position: center;
     background-attachment: fixed;
     align-items: center;
+    display: flex;
 }
 
 .section-2 h2 {
@@ -126,6 +136,7 @@ header nav ul li a {
     font-weight: 400;
     text-align: center;
     color: black;
+
 
 }
 
@@ -142,27 +153,27 @@ header nav ul li a {
     border-radius: 1rem;
     padding: 1.3rem;
     color: black;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0.21rem 0.5rem black;
     margin-top: 0.5rem;
-    
+
 
 }
 
 
 
- 
-    
+
+
 footer {
-    padding:min(4vh, 4rem);
+    padding: min(1vh, 4rem);
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 footer i {
@@ -177,17 +188,19 @@ footer i {
 
 @media (max-width: 830px) {
     header {
-        font-size: 0.9em;
-       
+        font-size: 0.7rem;
+
     }
 
     .section-1 {
-        padding: 4rem;
+        padding: 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 15px;
+
     }
+
     .section-2 {
         padding: 9rem;
         display: flex;
@@ -197,28 +210,24 @@ footer i {
     }
 
     footer {
-        padding:min(3vh, 3rem);
+        padding: min(0.2vh, 3rem);
         display: block;
         text-align: center;
     }
 
     .whatsapp img {
-        position: fixed;/*Mantem a imagem em uma posição fixa na tela.*/
+        position: fixed;
+        /*Mantem a imagem em uma posição fixa na tela.*/
         bottom: 20px;
         right: 20px;
         width: 3.5rem;
         height: auto;
-        
-    }
-    
 
-        
-        
+    }
+
+
+
+
 
 
 }
-   
-
-
-
-    
